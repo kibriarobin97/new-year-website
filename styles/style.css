@@ -5,6 +5,19 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF0000;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+/* header section styles */
 
 .header-section {
     width: 80%;
@@ -33,6 +46,8 @@
     font-size: 70px;
     font-weight: 900;
 }
+
+/* main section styles */
 
 .holyday-deals {
     width: 80%;
@@ -66,6 +81,41 @@
     font-weight: 700;
     margin-bottom: 20px;
 }
-.holyday-deals-content img{
+
+.holyday-deals-content img {
     max-width: 600px;
+}
+
+.midnight-section {
+    width: 80%;
+    max-width: 1300px;
+    margin: 100px auto;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-position: left top;
+    border-radius: 10px;
+}
+
+.midnight-section-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 100px;
+}
+.midnight-section-text{
+    max-width: 500px;
+}
+.midnight-section-content h2 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.midnight-section-content p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.midnight-section-img{
+    max-width: 300px;
 }
