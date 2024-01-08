@@ -325,11 +325,11 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 .footer-text p {
+    max-width: 350px;
     color: #FFF;
     font-family: 'Inter';
     font-size: 18px;
     font-weight: 500;
-    line-height: 25px;
 }
 .footer-icon-content{
     display: flex;
@@ -352,6 +352,7 @@
 .social-icon img {
     max-width: 60px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .footer-end p {
