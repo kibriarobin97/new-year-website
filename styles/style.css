@@ -168,26 +168,30 @@
 
 /* best offer section styles */
 
-.best-offer-section{
+.best-offer-section {
     width: 80%;
     margin: 100px auto 0;
 }
-.best-offer-container{
+
+.best-offer-container {
     display: flex;
     align-items: center;
     gap: 60px;
 }
-.best-offer-container p{
+
+.best-offer-container p {
     color: rgba(7, 2, 17, 0.60);
     font-size: 18px;
 }
-.best-offer-item h4{
+
+.best-offer-item h4 {
     color: #F00;
     font-size: 20px;
     font-weight: 500;
     font-family: 'Inter';
 }
-.best-offer-item h3{
+
+.best-offer-item h3 {
     color: #070211;
     font-size: 40px;
     font-weight: 900;
@@ -195,17 +199,19 @@
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.best-offer-item .celebrate-img{
+
+.best-offer-item .celebrate-img {
     max-width: 300px;
     padding: 10px;
     border: 10px solid #FF0000;
     border-radius: 50%;
 }
 
-#best-offer-item-year{
+#best-offer-item-year {
     color: #F00;
 }
-.best-offer-item .year-img{
+
+.best-offer-item .year-img {
     margin-top: 10px;
 }
 
@@ -249,9 +255,14 @@
 }
 
 .gift-info .gift-item img {
+    width: 100%;
     max-width: 350px;
+    cursor: pointer;
 }
-
+.gift-item:hover img {
+    transform: scale(1.1);
+    transition: 1s ease;
+}
 
 /* newsletter section styles */
 
@@ -324,6 +335,7 @@
     padding-bottom: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
+
 .footer-text p {
     max-width: 350px;
     color: #FFF;
@@ -331,11 +343,13 @@
     font-size: 18px;
     font-weight: 500;
 }
-.footer-icon-content{
+
+.footer-icon-content {
     display: flex;
     align-items: center;
     gap: 5px;
 }
+
 .footer-icon p {
     color: #FFF;
     font-family: 'Inter';
@@ -360,7 +374,8 @@
     font-family: 'Inter';
     font-weight: 500;
 }
-.footer-end{
+
+.footer-end {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
